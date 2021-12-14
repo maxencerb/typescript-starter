@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@types/node": "^16.11.12",
+    "node-fetch": "^3.1.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "run": "yarn run build && node dist/index.js"
+  },
+  "name": "typescript-starter",
+  "version": "1.0.0",
+  "description": "Starter project for typescript(s)",
+  "main": "index.js",
+  "repository": "https://github.com/maxencerb/typescript-starter",
+  "author": "Maxence Raballand",
+  "license": "MIT",
+  "type": "module"
+}
